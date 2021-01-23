@@ -2208,7 +2208,7 @@
   width: 95%;
   height: 300px;
   max-width: 350px;
-  background-image: url('../images/DSC_0465.JPG');
+  background-image: url('../images/DSC_9976.JPG');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2219,6 +2219,82 @@
   background-image: url('../images/IMG_0410-2.jpg');
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.camppreviewimage.srhichpacimage {
+  background-image: url('../images/DSC_0141-1-2.jpg');
+  background-position: 100% 50%;
+}
+
+.camppreviewimage.srbackpackingimage {
+  background-image: url('../images/062515_BPA_0505.JPG');
+}
+
+.camppreviewimage.srsurvivalimage {
+  background-image: url('../images/121013_A_1819.JPG');
+}
+
+.camppreviewimage.srsportsimage {
+  background-image: url('../images/IMG_9390-2.jpg');
+  background-position: 75% 50%;
+}
+
+.camppreviewimage.sradventureimage {
+  background-image: url('../images/062515_AV_2722.JPG');
+}
+
+.camppreviewimage.srfineartimage {
+  background-image: url('../images/071415_AV_0870.JPG');
+}
+
+.camppreviewimage.srmountainimages {
+  background-image: url('../images/IMG_9961-2.jpg');
+}
+
+.camppreviewimage.arcimage {
+  background-image: url('../images/DSC_3931.JPG');
+}
+
+.camppreviewimage.jrbackpackingimage {
+  background-image: url('../images/062515_BPA_0530.JPG');
+  background-position: 50% 50%;
+}
+
+.camppreviewimage.jrsurvivalimage {
+  background-image: url('../images/DSC_0003.1.JPG');
+  background-position: 50% 50%;
+}
+
+.camppreviewimage.jrpacimage {
+  background-image: url('../images/DSC00138-2.jpg');
+}
+
+.camppreviewimage.legocampimages {
+  background-image: url('../images/070315_AV_1923.JPG');
+}
+
+.camppreviewimage.jrfineartsimage {
+  background-image: url('../images/H_011109_1736-2.jpg');
+}
+
+.camppreviewimage.jradventureimage {
+  background-image: url('../images/DSC_0465.JPG');
+}
+
+.camppreviewimage.jrmountainbikeimage {
+  background-image: url('../images/DSC_0186_edited-1.JPG');
+}
+
+.camppreviewimage.jrsportsimage {
+  background-image: url('../images/DSC_9733.JPG');
+}
+
+.camppreviewimage.bestofimage {
+  background-position: 25% 50%;
+}
+
+.camppreviewimage.jrnerfimage {
+  background-image: url('../images/Jul022013_3989.JPG');
 }
 
 .campdate {
