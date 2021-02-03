@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Jan 23 2021 05:39:09 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Feb 03 2021 03:12:32 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ff5294118c68d9951636bb4" data-wf-site="5fd44a39c2fe797415195448">
 <head>
   <meta charset="utf-8">
@@ -29,7 +29,10 @@
       </div>
     </div>
     <div class="navbannersection">
-      <div class="navbannersm"><img src="images/20804882391579688354-128W.png" loading="lazy" width="35" height="35" alt="" class="navbannersmimg"><img src="images/8839393141580817581-128W.png" loading="lazy" width="35" height="35" alt="" class="navbannersmimg"></div>
+      <div class="navbannersm">
+        <a href="https://www.facebook.com/WesleyWoodsInc/" class="w-inline-block"><img src="images/facebook-3-64.png" loading="lazy" width="35" height="35" alt="" class="navbannersmimg"></a>
+        <a href="https://www.instagram.com/wesley_woods/" class="w-inline-block"><img src="images/instagram-64.png" loading="lazy" width="35" height="35" alt="" class="navbannersmimg"></a>
+      </div>
       <div class="navbannerloginbtn">
         <a href="#" class="button1 w-button">Login / Sign up</a>
       </div>
@@ -48,9 +51,9 @@
             <nav class="dropdown-list w-dropdown-list">
               <a href="abc-camps.html" aria-current="page" class="dropdown-link w-dropdown-link w--current">ABC Camp (4-6)</a>
               <a href="mini-camps.html" class="dropdown-link w-dropdown-link">Mini Camp (6-8)</a>
-              <a href="junior-high-camps.html" class="dropdown-link w-dropdown-link">Jr. High (8-12)</a>
-              <a href="senior-high-camps.html" class="dropdown-link w-dropdown-link">Sr. High (13-17)</a>
-              <a href="#" class="dropdown-link w-dropdown-link">Exceptional Persons</a>
+              <a href="junior-camps.html" class="dropdown-link w-dropdown-link">Junior Camp (8-12)</a>
+              <a href="senior-camps.html" class="dropdown-link w-dropdown-link">Senior Camp(13-17)</a>
+              <a href="exceptional-persons.html" class="dropdown-link w-dropdown-link">Exceptional Persons</a>
               <a href="#" class="dropdown-link w-dropdown-link">Photos</a>
             </nav>
           </div>
@@ -61,7 +64,7 @@
             </div>
             <nav class="dropdown-list w-dropdown-list">
               <a href="campground-rentals.html" class="dropdown-link w-dropdown-link">Campground Rentals</a>
-              <a href="#" class="dropdown-link w-dropdown-link">Our Retreats</a>
+              <a href="group-retreats.html" class="dropdown-link w-dropdown-link">Our Retreats</a>
             </nav>
           </div>
           <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
@@ -98,26 +101,10 @@
   </div>
   <div class="layersection toplayersection campintrosection">
     <h1 class="campbodyheading1">ABC Camps</h1>
-    <h3 class="campbodyheading">ABC Camps are for campers between the ages of 4 &amp; 6. <br>Each Camper must be accompanied by an Adult.</h3>
+    <h3 class="campbodyheading">These camps are for campers 4 &amp; 6 years old. <br>Each Camper must be accompanied by an Adult.</h3>
     <div class="layercontainer campintrocontainer w-container">
-      <div class="campintro"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="camppreviewimage">
-        <h3 class="campname">ABC Adult</h3>
-        <p class="paragraph">Each ABC camper is required to come with an adult over 18, for their half week of camp. </p>
-        <div class="campbtndiv">
-          <a href="#" class="button campbutton w-button">Register Now</a>
-          <a href="#abcParent" class="button campbutton w-button">More Info</a>
-        </div>
-      </div>
-      <div class="campintro"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="camppreviewimage">
-        <h3 class="campname">ABC - B</h3>
-        <div class="campdate">June 30 - July 2</div>
-        <div class="campdean">Camp Dean : Grace Lenox</div>
-        <div class="campbtndiv">
-          <a href="#" class="button campbutton w-button">Register Now</a>
-          <a href="#abcC" class="button campbutton w-button">More Info</a>
-        </div>
-      </div>
-      <div class="campintro"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="camppreviewimage">
+      <div class="campintro">
+        <div class="camppreviewimage abcacampe"></div>
         <h3 class="campname">ABC - A</h3>
         <div class="campdate">June 27 - June 29</div>
         <div class="campdean">Camp Dean : Grace Lenox</div>
@@ -126,19 +113,38 @@
           <a href="#abcC" class="button campbutton w-button">More Info</a>
         </div>
       </div>
+      <div class="campintro">
+        <div class="camppreviewimage abcbcamp"></div>
+        <h3 class="campname">ABC - B</h3>
+        <div class="campdate">June 30 - July 2</div>
+        <div class="campdean">Camp Dean : Grace Lenox</div>
+        <div class="campbtndiv">
+          <a href="#" class="button campbutton w-button">Register Now</a>
+          <a href="#abcC" class="button campbutton w-button">More Info</a>
+        </div>
+      </div>
+      <div class="campintro">
+        <div class="camppreviewimage abcadultcamp"></div>
+        <h3 class="campname">ABC Adult</h3>
+        <p class="paragraph">Each ABC camper is required to come with an adult over 18, for their half week of camp. </p>
+        <div class="campbtndiv">
+          <a href="#" class="button campbutton w-button">Register Now</a>
+          <a href="#abcParent" class="button campbutton w-button">More Info</a>
+        </div>
+      </div>
     </div>
   </div>
   <div class="layersection greybackground">
     <div class="layercontainer w-container">
-      <div class="needhelpreg"><strong>Need help registering? <br>Email:registration@wesleywoods.com</strong></div>
+      <div class="needhelpreg"><strong>Need help registering? <br>Email: </strong><span class="ctaemail"><strong>registration@wesleywoods.com</strong></span></div>
       <div class="w-row">
         <div class="column w-col w-col-6">
-          <h3>Need Finical Support?</h3>
+          <h3>Camp Scholarships</h3>
           <p class="registerhelpp">Apply for Wesley Woods Campership here!</p>
           <a href="campership-application.html" class="button2 w-button">Apply here</a>
         </div>
         <div class="column-2 w-col w-col-6">
-          <h3>Camper Information for 2021</h3>
+          <h3>Getting Ready for Summer Camp 2021</h3>
           <div class="registerhelpp">Here is some important inform ation each camper should know before coming to camp!</div>
           <a href="documents/Camper-Information-2021.pdf" class="button2 w-button">more info</a>
         </div>
@@ -148,8 +154,8 @@
   <div class="layersection campbreakdownsections">
     <div class="layercontainer w-container">
       <div id="abcC" class="campbreakdowndetails w-row">
-        <div class="w-col w-col-4"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="camppreviewimage2"></div>
-        <div class="w-col w-col-8">
+        <div class="campimagecolumn w-col w-col-4 w-col-stack"><img src="images/DSC_9208-copy.JPG" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 83vw, 31vw" srcset="images/DSC_9208-copy-p-500.jpeg 500w, images/DSC_9208-copy-p-800.jpeg 800w, images/DSC_9208-copy-p-1080.jpeg 1080w, images/DSC_9208-copy.JPG 1309w" alt="" class="camppreviewimage2"></div>
+        <div class="w-col w-col-8 w-col-stack">
           <div class="w-row">
             <div class="abccampcolumn w-col w-col-6 w-col-small-small-stack w-col-tiny-tiny-stack">
               <h3 class="campname2">ABC - A</h3>
@@ -168,8 +174,8 @@
         </div>
       </div>
       <div id="abcParent" class="campbreakdowndetails w-row">
-        <div class="w-col w-col-4"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="camppreviewimage2"></div>
-        <div class="w-col w-col-8">
+        <div class="campimagecolumn w-col w-col-4 w-col-stack"><img src="images/071415_AV_0803.JPG" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 83vw, 31vw" srcset="images/071415_AV_0803-p-1080.jpeg 1080w, images/071415_AV_0803-p-1600.jpeg 1600w, images/071415_AV_0803-p-2000.jpeg 2000w, images/071415_AV_0803-p-2600.jpeg 2600w, images/071415_AV_0803.JPG 2896w" alt="" class="camppreviewimage2"></div>
+        <div class="w-col w-col-8 w-col-stack">
           <h3 class="campname2">ABC Adult</h3>
           <p class="campdescription">Each ABC camper is required to come with an adult over 18, for their half week of camp. Please register your child and pay the tuition and then register the adult separately. There will not be a deposit fee required for the adult, since it is paid under the child’s registration.</p>
           <a href="#" class="button w-button">Register Here</a>
@@ -179,9 +185,9 @@
   </div>
   <div class="layersectionthin greenbackground">
     <div class="layercontainer cta-wrap">
-      <div class="heading-jumbo-small">Preserve the Woods &amp; <br>Support Wesley Woods!<br></div>
+      <div class="heading-jumbo-small">Preserve the &quot;Woods&quot; <br>Support Wesley Woods!<br></div>
       <a href="donate.html" class="button2 cc-jumbo-button w-inline-block">
-        <div class="text-block-3">DOnate Here</div>
+        <div class="text-block-3">Donate Here</div>
       </a>
     </div>
   </div>
@@ -190,10 +196,11 @@
       <div class="layercontainer w-container">
         <div class="footer-flex-container">
           <div class="footercolumn">
-            <a href="#" class="footer-logo-link w-inline-block"><img src="images/HORIZONTAL-LOGO-1-1_logo-1.png" width="250" sizes="(max-width: 479px) 70vw, (max-width: 767px) 43vw, 225px" srcset="images/HORIZONTAL-LOGO-1-1_logo-1-p-500.png 500w, images/HORIZONTAL-LOGO-1-1_logo-1-p-800.png 800w, images/HORIZONTAL-LOGO-1-1_logo-1-p-1080.png 1080w, images/HORIZONTAL-LOGO-1-1_logo-1-p-1600.png 1600w, images/HORIZONTAL-LOGO-1-1_logo-1-p-2000.png 2000w, images/HORIZONTAL-LOGO-1-1_logo-1-p-2600.png 2600w, images/HORIZONTAL-LOGO-1-1_logo-1-p-3200.png 3200w, images/HORIZONTAL-LOGO-1-1_logo-1.png 4000w" alt="" class="footer-image"></a>
+            <a href="#" class="footer-logo-link w-inline-block"><img src="images/HORIZONTAL-LOGO-1-1_logo-1.png" width="250" sizes="(max-width: 479px) 94vw, (max-width: 767px) 43vw, 225px" srcset="images/HORIZONTAL-LOGO-1-1_logo-1-p-500.png 500w, images/HORIZONTAL-LOGO-1-1_logo-1-p-800.png 800w, images/HORIZONTAL-LOGO-1-1_logo-1-p-1080.png 1080w, images/HORIZONTAL-LOGO-1-1_logo-1-p-1600.png 1600w, images/HORIZONTAL-LOGO-1-1_logo-1-p-2000.png 2000w, images/HORIZONTAL-LOGO-1-1_logo-1-p-2600.png 2600w, images/HORIZONTAL-LOGO-1-1_logo-1-p-3200.png 3200w, images/HORIZONTAL-LOGO-1-1_logo-1.png 4000w" alt="" class="footer-image"></a>
             <div class="footer-link">1001 Fiddlersgreen Rd, Grand Valley, PA</div>
-            <div class="footer-link">Office Hours<br>Monday - Friday<br>9am - 4pm</div>
+            <div class="footer-link">Office Hours<br>Monday - Friday<br>8:45am - 3pm</div>
             <div class="footer-link"><strong>1-814-436-7802</strong><br>info@wesleywoods.com</div>
+            <div class="footersm"><img src="images/facebook-3-64.png" loading="lazy" width="50" height="50" alt="" class="navbannersmimg"><img src="images/instagram-64.png" loading="lazy" width="50" height="50" alt="" class="navbannersmimg"></div>
           </div>
           <div class="footercolumn">
             <h2 class="footer-heading">Summer Camps</h2>
@@ -208,10 +215,10 @@
                 <a href="mini-camps.html" class="footer-link">Mini Camp (6-8)</a>
               </li>
               <li>
-                <a href="junior-high-camps.html" class="footer-link">Jr. High (8-12)</a>
+                <a href="junior-camps.html" class="footer-link">Junior Camp (8-12)</a>
               </li>
               <li>
-                <a href="summer-camps.html" class="footer-link">Sr. High (13-17)</a>
+                <a href="summer-camps.html" class="footer-link">Senior Camp (13-17)</a>
               </li>
               <li>
                 <a href="exceptional-persons.html" class="footer-link">Exceptional Persons</a>
@@ -228,7 +235,7 @@
                 <a href="campground-rentals.html" class="footer-link">Camp Rentals</a>
               </li>
               <li>
-                <a href="#" class="footer-link">Retreats</a>
+                <a href="group-retreats.html" class="footer-link">Retreats</a>
               </li>
             </ul>
             <h2 class="footer-heading">Get Involved</h2>
