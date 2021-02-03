@@ -2254,6 +2254,9 @@
 
 .camppreviewimage.srsurvivalimage {
   background-image: url('../images/Jun162014_2902.JPG');
+  -webkit-transform:rotate(270deg);
+    -moz-transform:rotate(270deg);
+
 }
 
 .camppreviewimage.srsportsimage {
