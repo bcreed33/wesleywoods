@@ -2399,6 +2399,7 @@
 .campdate2 {
   font-size: 18px;
   font-weight: 400;
+  text-align: left;
 }
 
 .camppreviewimage2 {
@@ -2408,6 +2409,7 @@
 
 .campdescription {
   line-height: 22px;
+  text-align: left;
   letter-spacing: 0.25px;
 }
 
@@ -3006,6 +3008,16 @@
 
 .bold-text-2 {
   font-weight: 400;
+}
+
+.wwretreatsintro {
+  width: 90%;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
