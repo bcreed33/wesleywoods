@@ -285,13 +285,6 @@
   height: auto;
 }
 
-.logo-link:hover {
-  opacity: 0.8;
-}
-
-.logo-link:active {
-  opacity: 0.7;
-}
 
 .logo-link.w--current {
   top: 0px;
@@ -2254,9 +2247,6 @@
 
 .camppreviewimage.srsurvivalimage {
   background-image: url('../images/Jun162014_2902.JPG');
-  -webkit-transform:rotate(270deg);
-    -moz-transform:rotate(270deg);
-
 }
 
 .camppreviewimage.srsportsimage {
@@ -3023,6 +3013,22 @@
   text-align: center;
 }
 
+.facilitiesphotos {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 40px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto 20px auto 20px auto;
+  grid-template-rows: auto auto auto;
+}
+
 @media screen and (max-width: 991px) {
   .navbannersmimg {
     display: none;
@@ -3369,6 +3375,13 @@
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+  }
+
+  .facilitiesphotos {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
   }
 }
 
@@ -3844,6 +3857,14 @@
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
+
+  .facilitiesphotos {
+    max-width: none;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4267,6 +4288,15 @@
 
   .wwretreateventhighlight {
     width: 100%;
+  }
+
+  .facilitiesphotos {
+    margin-right: 0px;
+    margin-left: 0px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
   }
 }
 
