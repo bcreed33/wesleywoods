@@ -1787,7 +1787,6 @@
   max-width: 1240px;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
 }
 
 .layercontainer.campeventhighlight {
@@ -2310,7 +2309,7 @@
 }
 
 .camppreviewimage.bestofimage {
-  background-image: url('../images/DSC_0186_edited-1.JPG');
+  background-image: url('../images/DSC_9976.JPG');
   background-position: 15% 50%;
 }
 
@@ -2325,18 +2324,26 @@
 }
 
 .camppreviewimage.campsrhigh {
+  height: 250px;
+  max-width: 400px;
   background-image: url('../images/IMG_7742.jpg');
 }
 
 .camppreviewimage.campjrhigh {
+  height: 250px;
+  max-width: 400px;
   background-image: url('../images/IMG_1824.jpg');
 }
 
 .camppreviewimage.campmini {
+  height: 250px;
+  max-width: 400px;
   background-image: url('../images/DSC_0033.jpg');
 }
 
 .camppreviewimage.campabc {
+  height: 250px;
+  max-width: 400px;
   background-image: url('../images/DSC_0211-2.jpg');
 }
 
@@ -4798,4 +4805,9 @@
     -ms-grid-row-span: 1;
     grid-row-end: span 1;
   }
+}
+
+
+.centerALL{
+  text-align: center;
 }
