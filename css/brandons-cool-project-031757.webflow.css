@@ -530,10 +530,16 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: #f4f4f4;
-  background-image: url('../images/hpbanner2.jpg');
+  background-image: url('../images/hpbanner.jpg');
   background-position: 50% 50%;
   background-size: cover;
   color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .homepagebanner {
+    background-image: url('../images/hpbanner-mobile.jpg');
+  }
 }
 
 .intro-content {
@@ -4810,4 +4816,14 @@
 
 .centerALL{
   text-align: center;
+}
+.noUnderLine{
+  text-decoration: none;
+  cursor:default;
+}
+.footer-heading{
+  cursor: default;
+}
+.noUnderLine:hover{
+  text-decoration: none;
 }
