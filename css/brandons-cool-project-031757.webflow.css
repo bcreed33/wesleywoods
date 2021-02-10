@@ -640,7 +640,7 @@
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  direction: rtl;
+  /*direction: rtl;*/
 }
 
 .image-3 {
@@ -1817,7 +1817,7 @@
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  direction: ltr;
+  /*direction: ltr;*/
 }
 
 .layercontainer.upcomingevent {
@@ -1909,7 +1909,7 @@
   -webkit-align-content: flex-start;
   -ms-flex-line-pack: start;
   align-content: flex-start;
-  direction: rtl;
+  /*direction: rtl;*/
 }
 
 .layercontainer.amazoncontainer {
@@ -2905,11 +2905,11 @@
 }
 
 .text-block-13 {
-  direction: ltr;
+  /*direction: ltr;*/
 }
 
 .text-block-14 {
-  direction: ltr;
+  /*direction: ltr;*/
 }
 
 .hostyourowncopy {
@@ -3009,7 +3009,7 @@
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  direction: rtl;
+  /*direction: rtl;*/
 }
 
 .bold-text-2 {
@@ -3285,7 +3285,7 @@
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    direction: ltr;
+    /*direction: ltr;*/
   }
 
   .layercontainer.cta-wrap {
@@ -3297,7 +3297,7 @@
   }
 
   .layercontainer.campintrocontainer {
-    direction: rtl;
+    /*direction: rtl;*/
   }
 
   .layercontainer.amazoncontainer {
@@ -3673,7 +3673,7 @@
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
     align-content: flex-start;
-    direction: rtl;
+    /*direction: rtl;*/
   }
 
   .layercontainer.questionscontainer {
@@ -4148,7 +4148,7 @@
   }
 
   .layercontainer.campeventhighlightcontainer {
-    direction: ltr;
+    /*direction: ltr;*/
   }
 
   .layercontainer.questionscontainer {
