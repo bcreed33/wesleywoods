@@ -289,7 +289,7 @@
 .logo-link.w--current {
   top: 0px;
   display: block;
-  height: 75px;
+  height: 100px;
   align-self: flex-end;
   grid-auto-columns: 1fr;
   -ms-grid-columns: 1fr 1fr;
@@ -4823,4 +4823,12 @@
 }
 .noUnderLine:hover{
   text-decoration: none;
+}
+
+.blackHR{
+  border: 1px solid grey;
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+
 }
