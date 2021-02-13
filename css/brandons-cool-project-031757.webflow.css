@@ -165,7 +165,7 @@
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background-color: #398538;
+  background-color: #215e44;
 }
 
 .text-block {
@@ -459,8 +459,8 @@
   -webkit-flex: 0 200px;
   -ms-flex: 0 200px;
   flex: 0 200px;
-  border-color: #398538;
-  background-color: #398538;
+  border-color: #215e44;
+  background-color: #215e44;
   font-size: 14px;
   font-weight: 700;
   text-align: center;
@@ -640,7 +640,7 @@
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  /*direction: rtl;*/
+  direction:inherit; 
 }
 
 .image-3 {
@@ -1817,7 +1817,7 @@
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  /*direction: ltr;*/
+  direction:inherit; 
 }
 
 .layercontainer.upcomingevent {
@@ -1892,9 +1892,6 @@
   max-width: 1300px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1909,7 +1906,7 @@
   -webkit-align-content: flex-start;
   -ms-flex-line-pack: start;
   align-content: flex-start;
-  /*direction: rtl;*/
+  direction:inherit; 
 }
 
 .layercontainer.amazoncontainer {
@@ -1959,7 +1956,7 @@
 }
 
 .layersectionthin.greenbackground {
-  background-color: #398538;
+  background-color: #215e44;
 }
 
 .homepagebanner-copy {
@@ -2905,11 +2902,11 @@
 }
 
 .text-block-13 {
-  /*direction: ltr;*/
+  direction:inherit; 
 }
 
 .text-block-14 {
-  /*direction: ltr;*/
+  direction:inherit; 
 }
 
 .hostyourowncopy {
@@ -3009,7 +3006,7 @@
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  /*direction: rtl;*/
+  direction:inherit; 
 }
 
 .bold-text-2 {
@@ -3285,7 +3282,7 @@
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    /*direction: ltr;*/
+    direction:inherit;
   }
 
   .layercontainer.cta-wrap {
@@ -3297,7 +3294,7 @@
   }
 
   .layercontainer.campintrocontainer {
-    /*direction: rtl;*/
+    direction:inherit; 
   }
 
   .layercontainer.amazoncontainer {
@@ -3673,7 +3670,7 @@
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
     align-content: flex-start;
-    /*direction: rtl;*/
+    direction:inherit; 
   }
 
   .layercontainer.questionscontainer {
@@ -4148,7 +4145,7 @@
   }
 
   .layercontainer.campeventhighlightcontainer {
-    /*direction: ltr;*/
+    direction:inherit; 
   }
 
   .layercontainer.questionscontainer {
