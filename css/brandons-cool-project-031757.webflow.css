@@ -4832,3 +4832,16 @@
   margin: 50px auto;
 
 }
+
+.announcementBanner{
+  padding-top: 75px;
+  padding-bottom: 0;
+}
+.announcementContainer{
+  background-color: lightgrey;
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 25px 0 35px;
+  border-radius: 5px;
+}
