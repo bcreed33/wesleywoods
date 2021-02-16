@@ -186,7 +186,7 @@
   background-color: #fff;
   -webkit-transition: height 500ms ease;
   transition: height 500ms ease;
-  font-family: Exo, sans-serif;
+
   font-size: 18px;
 }
 
@@ -302,7 +302,6 @@
 .dropdown-link {
   min-height: 50px;
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 25px;
 }
@@ -392,7 +391,6 @@
   -ms-flex: 0 auto;
   flex: 0 auto;
   opacity: 1;
-  font-family: 'Open Sans', sans-serif;
   color: #000;
   font-style: normal;
   font-weight: 600;
@@ -418,7 +416,7 @@
   background-color: #2e8a38;
   -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
-  font-family: 'Open Sans', sans-serif;
+   
   color: #fff;
   font-size: 12px;
   line-height: 20px;
@@ -567,7 +565,6 @@
   margin: 10px auto;
   background-color: #215e44;
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.76);
-  font-family: Varela, sans-serif;
   font-size: 75px;
   line-height: 80px;
   letter-spacing: 1.5px;
@@ -649,7 +646,6 @@
 }
 
 .heading {
-  font-family: Varela, sans-serif;
   text-align: center;
 }
 
@@ -659,7 +655,6 @@
   margin-top: 10px;
   padding-right: 10px;
   padding-left: 10px;
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 20px;
   text-align: left;
@@ -962,7 +957,7 @@
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  font-family: Varela, sans-serif;
+   
   color: #fff;
   font-size: 36px;
   line-height: 50px;
@@ -1113,7 +1108,7 @@
 .footer-heading {
   margin-top: 10px;
   margin-bottom: 5px;
-  font-family: Varela, sans-serif;
+   
   font-size: 18px;
   line-height: 1.5;
   text-transform: uppercase;
@@ -1144,7 +1139,7 @@
   margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 0px;
-  font-family: 'Open Sans', sans-serif;
+   
   color: #444;
   font-size: 18px;
   line-height: 28px;
@@ -2047,7 +2042,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #215e44;
-  font-family: Varela, sans-serif;
+   
   font-size: 18px;
   letter-spacing: 1px;
 }
@@ -2202,7 +2197,7 @@
   flex: 0 auto;
   border-color: rgba(255, 255, 255, 0.74);
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
+   
   color: #000;
   font-size: 14px;
   line-height: 45px;
@@ -2554,15 +2549,15 @@
   -ms-flex: 0 auto;
   flex: 0 auto;
   opacity: 1;
-  font-family: 'Open Sans', sans-serif;
+   
 }
 
 .heading-10 {
-  font-family: Varela, sans-serif;
+   
 }
 
 .paragraph-6 {
-  font-family: 'Open Sans', sans-serif;
+   
 }
 
 .loginbtn {
@@ -2588,7 +2583,7 @@
   -ms-flex: 0 auto;
   flex: 0 auto;
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
+   
   color: #000;
   line-height: 25px;
 }
@@ -2600,7 +2595,7 @@
 
 .privacyp {
   margin-top: 15px;
-  font-family: 'Open Sans', sans-serif;
+   
   color: #fff;
   text-align: center;
 }
@@ -2841,7 +2836,7 @@
   -ms-flex: 0 auto;
   flex: 0 auto;
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
+   
   color: #000;
   line-height: 25px;
 }
