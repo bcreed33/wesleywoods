@@ -4845,3 +4845,11 @@
   padding: 25px 0 35px;
   border-radius: 5px;
 }
+
+.shutterflyLink{
+  font-size: 28px;
+  line-height: 40px;
+  display: block;
+  width: auto;
+  color: black;
+}
