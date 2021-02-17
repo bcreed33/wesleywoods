@@ -1,13 +1,13 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Wed Feb 03 2021 03:41:54 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="600b3977dda7a0c7ef29d55e" data-wf-site="5fd44a39c2fe797415195448">
+<html data-wf-page="5fd461b8c620983c45a89b91" data-wf-site="5fd44a39c2fe797415195448">
 <head>
   <meta charset="utf-8">
-  <title>Campership Application - Wesley Woods</title>
-  <meta content="campership application" property="og:title">
-  <meta content="campership application" property="twitter:title">
+  <title>Thank You - Wesley Woods</title>
+  <meta content="Thank You" property="og:title">
+  <meta content="Thank You" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta name="description" content="Wesley Woods offers camership applications for campers that might have touble affording camp on their own.">
+  <meta name="description" content="Get to know about Wesley Woods. Learn a little about about the camp and the committee the runs the camp!">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/brandons-cool-project-031757.webflow.css" rel="stylesheet" type="text/css">
@@ -47,15 +47,18 @@
       ]
     }
     </script>
+    
  </head>
 <body>
   <div class="navbanner">
     <div class="navbannersection">
       <div class="navbanneraddress">
-        <img src="images/15304585081556274015-128W.png" height="35" width="35" alt="location marker icon" class="image">        <div class="pencilbannertext">1001 Fiddlersgreen Rd, Grand Valley, PA</div>
+        <img src="images/15304585081556274015-128W.png" height="35" width="35" alt="location marker icon" class="image">        
+        <div class="pencilbannertext">1001 Fiddlersgreen Rd, Grand Valley, PA</div>
       </div>
       <div class="navbannerphonenumber">
-        <img src="images/7813812491556281124-128W.png" loading="eager" width="30" height="30" alt="phone icon" class="image">        <div class="pencilbannertext">1-814-436-7802</div>
+        <img src="images/7813812491556281124-128W.png" loading="eager" width="30" height="30" alt="phone icon" class="image">        
+        <div class="pencilbannertext">1-814-436-7802</div>
       </div>
     </div>
     <div class="navbannersection">
@@ -94,7 +97,7 @@
             </div>
             <nav class="dropdown-list w-dropdown-list">
               <a href="campground-rentals.html" class="dropdown-link w-dropdown-link">Campground Rentals</a>
-              <!--<a href="group-retreats.html" class="dropdown-link w-dropdown-link">Our Retreats</a>-->
+              <!--<a>href="group-retreats.html" class="dropdown-link w-dropdown-link">Our Retreats</a>-->
             </nav>
           </div>
           <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
@@ -113,7 +116,7 @@
               <div>About</div>
             </div>
             <nav class="dropdown-list w-dropdown-list">
-              <a href="about-us.html" class="dropdown-link w-dropdown-link">About Us</a>
+              <a href="about-us.html" aria-current="page" class="dropdown-link w-dropdown-link w--current">Thank You</a>
               <a href="our-facilities.html" class="dropdown-link w-dropdown-link">Our Facilities</a>
             </nav>
           </div>
@@ -128,60 +131,31 @@
   </div>
   <div class="innerpagebanner-textonly">
     <div class="innerpagebannernoimage w-container">
-      <h1 class="innerpagebannerheading">Campership Application</h1>
       <div class="w-embed">
-        <hr>
       </div>
     </div>
   </div>
-  <section id="contact-form" class="contact-form">
-    <div class="w-container">
-      <div class="w-form">
-        <form name="Campership Application Form" netlify method="POST" id="my_form" action="/thankyou.html" >
-          <input type="hidden" name="Below info is from" value="Campership Application Form">
-          <div class="contact-form-grid-2">
-            <div id="w-node-57dca40f2d46-ef29d55e">
-              <label for="First-Name" id="contact-first-name">Child's Name<sup>*</sup>
-              <input type="text" class="w-input" maxlength="256" name="Childs Name" placeholder="Childs Name" required >
-            </label>
-            </div>
-            <div id="w-node-57dca40f2d4a-ef29d55e">
-              <label>Parents Name<sup>*</sup>
-              <input type="text" class="w-input" maxlength="256" name="Parents Name" placeholder="Parents Name" required>
-            </label>
-            </div>
-            <div id="w-node-57dca40f2d4e-ef29d55e">
-              <label>Your Email<sup>*</sup>
-              <input type="email" class="w-input" maxlength="256" name="Email" placeholder="Email" required>
-            </label>
-            </div>
-            <div id="w-node-57dca40f2d52-ef29d55e">
-              <label>Phone Number<sup>*</sup>
-              <input type="tel" class="w-input" maxlength="256" name="Contact Phone Number" placeholder="Phone Numer" required>
-            </label>
-            </div>
-            <div id="w-node-46c0f5b1ae81-ef29d55e">
-              <label>Number Attending<sup>*</sup>
-              <input type="text" class="w-input" maxlength="256" name="Event Number Attending" placeholder="Number Attending" required>
-            </label>
-            </div>
-            <div id="w-node-fee518ae205a-ef29d55e">
-              <label>Name of Camp<sup>*</sup>
-              <input type="text" class="w-input" maxlength="256" name="Name of Camp" placeholder="Name of Camp"  required>
-            </label>
-            </div>
-            <div id="w-node-57dca40f2d56-ef29d55e">
-              <label>Reason for Requesting Assistance<sup>*</sup>
-              <textarea data-name="Message" maxlength="5000" id="Message" name="Message" class="w-input" required></textarea>
-            </label>
-            </div>
-          </div>
-          <input type="submit" value="Submit" class="button w-button">
-        </form>
-      
+  <section id="feature-section" class="layersection toplayersection">
+    <div class="flexlayercontainer w-container">
+      <div class="feature-image-mask-2">
+        <img src="images/thankyouimage.jpg" alt="The Wesley Woods sign" width="300" class="feature-image-2"></div>
+      <div class="div-block-4">
+       <h1>We got your message! <br> Thank You!<br> </h1>
+       <a href="/" class="button2 w-inline-block">
+        Home
+      </a>
+
       </div>
     </div>
   </section>
+  <div class="layersectionthin greenbackground">
+    <div class="layercontainer cta-wrap">
+      <div class="heading-jumbo-small">Preserve the &quot;Woods&quot; <br>Support Wesley Woods!<br></div>
+      <a href="donate.html" class="button2 cc-jumbo-button w-inline-block">
+        <div class="text-block-3">Support</div>
+      </a>
+    </div>
+  </div>
   <div class="section footersection">
     <footer id="footer" class="footer">
       <div class="layercontainer w-container">
@@ -217,7 +191,7 @@
                 <a href="exceptional-persons.html" class="footer-link">Exceptional Persons</a>
               </li>
               <li>
-                <a href="camp-photos.html" class="footer-link">Camp Photos</a>
+                <a href="camp-photos.html" class="footer-link">Thank You</a>
               </li>
             </ul>
           </div>
@@ -245,7 +219,7 @@
             <h4 class="footer-heading">About</h2>
             <ul role="list" class="footerlist w-list-unstyled">
               <li>
-                <a href="about-us.html" class="footer-link">About Us</a>
+                <a href="about-us.html" aria-current="page" class="footer-link w--current">Thank You</a>
               </li>
               <li>
                 <a href="our-facilities.html" class="footer-link">Our Facilities</a>
