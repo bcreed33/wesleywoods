@@ -153,63 +153,55 @@
           <div class="contactformdiv">
             <div class="w-form">
 
-              <form name="Contact Us Form" netlify method="POST" id="my_form" action="/thanks/">
+              <form name="Contact Us Form" netlify method="POST" id="my_form" action="/thanks.html">
 
-                <label for="name" class="formOption"> Name<sup>*</sup>
+                <label for="name" class="formOption">Name<sup>*</sup>
                       <input autocomplete="!off" name="name" id="name_form" type="text" placeholder="Name" required>
                     </label>
 
-
-                      <label for="email" class="formOption">Email<sup>*</sup>
+                    <label for="email" class="formOption"><br>Email<sup>*</sup>
                       <input name="email" id="email_form" type="email" placeholder="Email" required>
                     </label>
 
-
-                    <label class="formOption">Why you're contacting us today?<sup>*</sup>
+                    <span class="formOption">Why you're contacting us today?<sup>*</sup></span>
                         <label class="radioOption">
-                          <input type="radio" name="reasonForContacting" value="Summer-Camp">
-                          Summer Camp
+                          <input type="radio" name="reasonForContacting" value="Summer Camp">
+                          <span class="radiotext">Summer Camp</span>
                         </label>
 
                         <label class="radioOption">
-                          <input type="radio" name="reasonForContacting" value="Group-Retreat">
-                          Group Retreat
+                          <input type="radio" name="reasonForContacting" value="Group Retreat">
+                          <span class="radiotext">Group Retreat</span>
                         </label>
 
                         <label class="radioOption">
                           <input type="radio" name="reasonForContacting" value="Campground Rentals">
-                          Campground Rentals
+                          <span class="radiotext">Campground Rentals</span>
                         </label>
 
                         <label class="radioOption">
                           <input type="radio" name="reasonForContacting" value="Summer Staff">
-                          Summer Staff
+                          <span class="radiotext">Summer Staff</span>
                         </label>
 
                         <label class="radioOption">
                           <input type="radio" name="reasonForContacting" value="Volunteering">
-                          Volunteering
+                          <span class="radiotext">Volunteering</span>
                         </label>
 
                         <label class="radioOption">
                           <input type="radio" name="reasonForContacting" value="other">
-                          Other
+                          <span class="radiotext">Other</span>
                         </label>
-                  </label>
-
-                  <label for="phone" class="formOption">Phone Number<sup>*</sup>
+                  
+                  <label for="phone" class="formOption"><br>Phone Number<sup>*</sup>
                     <input name="phone" id="phone-number" type="tel" placeholder="Phone Number" required>
                   </label>
  
-                  <label class="formOption">Message<sup>*</sup>
+                  <label class="formOption"><br>Message<sup>*</sup>
                       <textarea name="message" id="message_form" type="text" onkeyup="charCount(this);" placeholder="Your Message" required></textarea>
                   </label>
-                      <p id="messageNotes">
-                        <small>Error message</small>
-                        <span id="characterCount">
-                          <span id="numberOfChar">0</span>/140</span>
-                      </p>
-
+                    
                       <input type="submit" value="Submit" class="button w-button">
  
               </form>
