@@ -2507,16 +2507,14 @@
   text-align: left;
 }
 
-.cards-grid-container-2.hostyourownpiontssection {
+/* 
+.hostyourownpiontssection div{
+  display: block;
+  float: left;
   width: 90%;
-  max-width: 1000px;
-  margin-right: auto;
-  margin-left: auto;
-  grid-auto-flow: row;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-}
+  max-width: 550px;
 
+} */
 .text-block-11 {
   font-size: 24px;
   text-align: center;
@@ -2933,17 +2931,7 @@
   text-align: left;
 }
 
-.cards-grid-container-1.hostyourownpiontssection {
-  width: 90%;
-  max-width: 1000px;
-  margin-right: auto;
-  margin-left: auto;
-  grid-auto-flow: row;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-}
+
 
 .wwretretimage {
   width: 100%;
@@ -3886,7 +3874,9 @@
     align-self: flex-start;
     text-align: center;
   }
-
+.text-block-8{
+  font-size: 16px;
+}
   .image {
     display: none;
   }
