@@ -156,27 +156,65 @@
               <form name="Contact Us Form" netlify method="POST" id="my_form">
 
                   <div class="formOption">
-                      <label>Name<sup>*</sup></label>
+                      <label>Name<sup>*</sup>
                       <input autocomplete="!off" name="name" id="name_form" type="text" placeholder="Name" required>
+                    </label>
                       <small>Erroor message</small>
                   </div>
 
                   <div class="formOption">
-                      <label>Email<sup>*</sup></label>
+                      <label>Email<sup>*</sup>
                       <input name="email" id="email_form" type="email" placeholder="Email" required>
+                    </label>
                       <small>Error message</small>
                   </div>  
 
+                  <div class="formOption">
+                    <label>Why you're contacting us today?<sup>*</sup></label>
 
+                    <fieldset>
+                        <label class="radioOption">
+                          <input type="radio" name="reasonForContacting" value="Summer-Camp">
+                          Summer Camp
+                        </label>
+
+                        <label class="radioOption">
+                          <input type="radio" name="reasonForContacting" value="Group-Retreat">
+                          Group Retreat
+                        </label>
+
+                        <label class="radioOption">
+                          <input type="radio" name="reasonForContacting" value="Campground Rentals">
+                          Campground Rentals
+                        </label>
+
+                        <label class="radioOption">
+                          <input type="radio" name="reasonForContacting" value="Summer Staff">
+                          Summer Staff
+                        </label>
+
+                        <label class="radioOption">
+                          <input type="radio" name="reasonForContacting" value="Volunteering">
+                          Volunteering
+                        </label>
+
+                        <label class="radioOption">
+                          <input type="radio" name="reasonForContacting" value="other">
+                          Other
+                        </label>
+                    </fieldset>
+                </div> 
 
                   <div class="formOption">
-                    <label>Phone Number<sup>*</sup></label>
+                    <label>Phone Number<sup>*</sup>
                     <input name="email" id="phone-number" type="tel" placeholder="Phone Number" required>
+                  </label>
                 </div> 
 
                   <div class="formOption">    
-                      <label>Message<sup>*</sup></label>
+                      <label>Message<sup>*</sup>
                       <textarea name="message" id="message_form" type="text" onkeyup="charCount(this);" placeholder="Your Message" required></textarea>
+                    </label>
                       <p id="messageNotes">
                       <small>Error message</small>
                       <span id="characterCount">
