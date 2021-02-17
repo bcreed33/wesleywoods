@@ -101,6 +101,15 @@
   align-self: center;
 }
 
+.smimage {
+  display: block;
+  width: 100%;
+  max-width: 80px;
+  height: auto;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 .image {
   display: inline-block;
 }
@@ -2731,10 +2740,7 @@
   text-align: center;
 }
 
-.smimage {
-  margin-right: 15px;
-  margin-left: 15px;
-}
+
 
 .melissaimgdiv {
   display: -webkit-box;
@@ -4207,13 +4213,7 @@
     flex-direction: row;
   }
 
-  .smimage {
-    max-width: 30%;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
-  }
+
 
   .melissaimagesecond {
     display: none;
