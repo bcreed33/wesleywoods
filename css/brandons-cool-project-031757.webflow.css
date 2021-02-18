@@ -2371,7 +2371,10 @@
 .camppreviewimage.elementarycamp {
   background-image: url('../images/DSC00355-2.jpg');
 }
-
+.camppreviewimage.miniacamp {
+  background-image: url('../images/070215_AV_1025.JPG');
+  background-position: 90% 50%;
+}
 .camppreviewimage.minibcamp {
   background-image: url('../images/062515_AV_2540.JPG');
   background-position: 25% 50%;
@@ -3319,9 +3322,6 @@
     max-width: 500px;
   }
 
-  .camppreviewimage.abcacampe {
-    background-image: url('../images/DSC_9199.JPG');
-  }
 
   .camppreviewimage2 {
     position: static;
