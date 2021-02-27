@@ -2391,6 +2391,12 @@
   text-align: center;
 }
 
+.campcost {
+  margin-top: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
 .campname2 {
   font-size: 26px;
   text-align: left;
@@ -2399,6 +2405,14 @@
 }
 
 .campdean2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.campcost2 {
   margin-top: 5px;
   margin-bottom: 15px;
   font-size: 18px;
@@ -2410,6 +2424,7 @@
   font-size: 18px;
   font-weight: 400;
   text-align: left;
+  padding-left: 3px;
 }
 
 .camppreviewimage2 {
@@ -2645,8 +2660,15 @@
   align-items: center;
 }
 
-.abccamppara {
+
+.abccampCost {
   margin-top: 25px;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+}
+.abccamppara {
+  margin-top: 10px;
 }
 
 .abccampcolumn {
