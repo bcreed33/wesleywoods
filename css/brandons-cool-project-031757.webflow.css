@@ -4841,12 +4841,13 @@
   padding-top: 75px;
   padding-bottom: 0;
 }
+
 .announcementContainer{
   background-color: #f2f2f2;
   width: 95%;
   max-width: 900px;
   margin: 0 auto;
-  padding: 25px 0 35px;
+  padding: 25px 50px 35px;
   border-radius: 5px;
 }
 
@@ -4856,4 +4857,23 @@
   display: block;
   width: auto;
   color: black;
+}
+
+
+
+.checkInSched{
+  padding: 0px 15px 15px 15px !important;
+  margin-bottom: 75px;
+  border-left:1px solid black ;
+}
+
+
+@media screen and (max-width: 767px) {
+
+.checkInSched{
+  margin-bottom: 50px;
+  border-top:1px solid black ;
+  border-left: 0;
+}
+
 }
