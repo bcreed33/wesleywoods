@@ -2315,9 +2315,13 @@
   background-image: url('../images/DSC_9733.JPG');
 }
 
-.camppreviewimage.bestofimage {
+.camppreviewimage.Julybestofimage {
   background-image: url('../images/DSC_9976.JPG');
   background-position: 15% 50%;
+}
+.camppreviewimage.Augustbestofimage {
+  background-image: url('../images/IMG_6933.JPG');
+  background-position: 50% 50%;
 }
 
 .camppreviewimage.jrnerfimage {
@@ -2334,6 +2338,11 @@
   height: 250px;
   max-width: 400px;
   background-image: url('../images/IMG_7742.jpg');
+}
+.camppreviewimage.campsrhigh {
+  height: 250px;
+  max-width: 400px;
+  background-image: url('../images/srHighBannerMobile-p-800.jpeg');
 }
 
 .camppreviewimage.campjrhigh {
