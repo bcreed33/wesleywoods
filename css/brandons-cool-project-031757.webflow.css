@@ -2316,11 +2316,21 @@
 }
 
 .camppreviewimage.Julybestofimage {
-  background-image: url('../images/DSC_9976.JPG');
-  background-position: 15% 50%;
+  background-image: url('../images/bestofsr2.JPG');
+  background-position: 75% 50%;
 }
 .camppreviewimage.Augustbestofimage {
-  background-image: url('../images/IMG_6933.JPG');
+  background-image: url('../images/bestofsr.JPG');
+  background-position: 50% 50%;
+}
+
+.camppreviewimage.jrAugustbestofimage {
+  background-image: url('../images/BestOfJr.JPG');
+  background-position: 50% 50%;
+}
+
+.camppreviewimage.jrJulybestofimage {
+  background-image: url('../images/BestOfJr3.JPG');
   background-position: 50% 50%;
 }
 
@@ -2328,10 +2338,24 @@
   background-image: url('../images/070315_AV_1923.JPG');
 }
 
+
+.camppreviewimage.jrsrhighcamp{
+  height: 250px;
+  max-width: 400px;
+  background-image: url('../images/adult-camp-image.JPG');
+
+}
+
 .camppreviewimage.epcamp {
   height: 250px;
   max-width: 400px;
   background-image: url('../images/DSC00115.JPG');
+}
+
+.camppreviewimage.adultcamp {
+  height: 250px;
+  max-width: 400px;
+  background-image: url('../images/adult-camp-image22.JPG');
 }
 
 .camppreviewimage.campsrhigh {
