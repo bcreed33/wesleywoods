@@ -4928,3 +4928,79 @@
 .campeventhighlightcontainer p{
   line-height: 22px ;
 }
+
+
+.attentionPencilBanner{
+  display: block;
+  clear: both;
+  background-color: #fff;
+  color: #000;
+  height: 45px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+
+
+}
+.attentionPencilBanner a{
+  color: #000;
+}
+
+
+@media screen and (max-width: 991px) {
+
+  .attentionPencilBanner{
+    height: 45px;
+    font-size: 12px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+
+
+.eventGraphic{
+  max-width: 400px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+
+}
+
+
+
+.rentalOptions{
+  min-height: 350px;
+  height: auto;
+
+}
+
+
+@media screen and (max-width: 1050px) {
+  .rentalOptions{
+    min-height: 425px;
+  }
+  
+
+}
+
+
+@media screen and (max-width: 850px) {
+  .rentalOptions{
+    min-height: 450px;
+  }
+  
+
+}
+
+@media screen and (max-width: 767px) {
+  .rentalOptions{
+    min-height: 0 ;
+  }
+  
+}
+
+
