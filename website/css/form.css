@@ -1,0 +1,128 @@
+
+.contactFormSection{
+    height: auto;
+    display: block;
+    overflow: auto;
+    background-color: #fff;
+    position: relative;
+    margin: 0 auto;
+    z-index: 9;
+    -webkit-box-shadow: 0 0 10px 1px rgba(1,1,1,.25);
+    box-shadow: 0 0 10px 1px rgba(1,1,1,.25);
+    background-color: #fff;
+    padding:50px 0 35px;
+    border: 2px lightgray solid;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    width: 95%;
+    max-width: 550px;}
+  
+    label{
+        display: block;
+        float: left;
+        margin-bottom: 0px;
+    }
+    .contactFormSection h2{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .contactFormSection hr{
+      width: 90%;
+      max-width: 250px;
+      margin: 0 auto;
+      border: black .5px solid;
+      margin-bottom: 10px;
+    }
+  
+    #my_form{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 600px;
+      margin: 25px 0;
+    }
+  
+    
+    #my_form input{
+      border: 2px solid #f0f0f0;
+      border-radius: 4px;
+      display: block;
+
+      padding: 10px;
+      width: 100%;
+      height: 45px;
+  
+    }
+    #my_form textarea{
+      font-size: 16px;
+      display: block;
+      height: 80px;
+      width: 100%;
+    }
+  
+  .formOption small{
+    color: #e74c3c;
+      visibility: hidden;
+  }
+
+  #messageNotes{
+      display: block;
+      width: 100%;
+      height: 30px;
+  }
+  #messageNotes small{
+      display: block;
+      width: 50%;
+      float: left;
+      text-align: left;
+  }
+  #messageNotes #characterCount{
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+  
+    .formOption.success input{
+      border-color: #2ecc71;
+      outline-color: #2ecc71;
+    }
+    .formOption.error input{
+      border-color: #e74c3c !important;
+      outline-color: #e74c3c;
+    }
+    .formOption.error textarea{
+      border-color: #e74c3c !important;
+      outline-color: #e74c3c;
+    }
+    .formOption.error small{
+      visibility: visible;
+      color:#e74c3c ;
+      float: left;
+    }
+    .formOption.error #characterCount{
+      color: red;
+    }
+  
+    .radioOption{
+        width: 100%;
+        height: 30px;
+        clear: both;
+    }
+    
+#my_form .radioOption input{
+        width: 25px;
+        float: left;
+    }
+    #my_form .radioOption label{
+        font-size: 14px;
+        line-height: 45px;
+        padding-left: 10px;
+    }
+
+    .radiotext{ 
+         line-height: 45px;
+      padding-left: 10px;}
