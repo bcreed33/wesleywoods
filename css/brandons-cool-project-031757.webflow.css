@@ -5010,3 +5010,36 @@
 }
 
 }
+
+
+/* Events styles */
+
+#event-details ul{
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+text-align: left;
+}
+#event-details p{
+  width: 100%;
+  max-width: 750px;
+  display: block;
+  margin: 0 auto;
+}
+
+#event-details hr{
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 50px auto;
+
+}
+#callouttext{
+  display: block;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+#event-detail img{
+  width: 100%;
+}
