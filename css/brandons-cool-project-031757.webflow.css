@@ -292,6 +292,7 @@
 .logo-link {
   z-index: 1;
   height: auto;
+  
 }
 
 
@@ -1750,7 +1751,7 @@
   -webkit-box-flex: 0;
   -webkit-flex: 0 32%;
   -ms-flex: 0 32%;
-  flex: 0 32%;
+  flex: 0 50%;
 }
 
 .paragraph-2 {
@@ -1932,6 +1933,11 @@
 
 .layercontainer.summerjobintrocontainer {
   max-width: 1000px;
+}
+
+
+.layercontainer.eventsPagecontainer {
+  max-width: 500px;
 }
 
 .layercontainer.jobpostingcontainer {
@@ -2492,7 +2498,7 @@
 
 .layerparagraph {
   font-size: 16px;
-  line-height: 21px;
+  line-height: 23px;
   text-align: left;
   letter-spacing: 0.25px;
 }
@@ -3669,6 +3675,7 @@
     width: 100%;
     margin-right: 15px;
     margin-left: 15px;
+    padding-top: 50px;
   }
 
   .summersatffdetailssection {
